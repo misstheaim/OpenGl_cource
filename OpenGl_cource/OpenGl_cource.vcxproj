@@ -135,9 +135,10 @@
   <ItemGroup>
     <ClCompile Include="..\..\..\..\Downloads\glad\src\glad.c" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="shader_s.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="shader_h.h" />
+    <ClInclude Include="shader_s.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="fragment.fs" />

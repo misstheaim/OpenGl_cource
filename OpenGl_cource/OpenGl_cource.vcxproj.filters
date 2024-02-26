@@ -24,11 +24,9 @@
     <ClCompile Include="main.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="shader_h.h">
+    <ClCompile Include="shader_s.cpp">
       <Filter>Исходные файлы</Filter>
-    </ClInclude>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="fragment.fs">
@@ -37,5 +35,10 @@
     <None Include="vertex.vs">
       <Filter>Файлы ресурсов\shaders</Filter>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="shader_s.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
